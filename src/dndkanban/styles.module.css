@@ -1,0 +1,11 @@
+.item  {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.dndContainer {
+    display: flex;
+    gap: 30px;
+    gap: 30px;
+}
