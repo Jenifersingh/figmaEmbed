@@ -9,6 +9,8 @@ export function Main() {
 
   const [teamObj, setTeamObj] = useState({});
 
+  console.log("ONe two there");
+
   useEffect(() => {
     if (token && team) {
       console.log(token, team);
