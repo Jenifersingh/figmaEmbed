@@ -16,5 +16,6 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - name: Installing node js
-        uses: actions/setup-node@v3
+  Install Node JS:
+    - name: Installing node js
+      uses: actions/setup-node@v3
