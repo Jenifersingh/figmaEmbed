@@ -17,5 +17,7 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
   Install Node JS:
-    - name: Installing node js
-      uses: actions/setup-node@v3
+    runs-on: ubuntu-latest
+    steps:
+      - name: Installing node js
+        uses: actions/setup-node@v3
